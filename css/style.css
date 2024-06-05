@@ -1,0 +1,222 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 80%;
+    background-color: black;
+    text-align: center;
+}
+.containerA, .containerB, .containerC, .containerD, .containerE, .containerF{
+    height: 1400px;
+    width:auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+.container{
+    height:auto;
+    padding-top: 5%;
+    align-items: center;
+    text-align: center;
+}
+.container img{
+    width: 100%;
+    height:auto;
+}
+.containerA{
+    background-image: url(../images/PlanetThraArt.png);
+}
+.containerB{ 
+    background-image: url(../images/Skeksis&Mystics.png);
+}
+.containerB .box-left, .containerB .box-right{
+    margin-top: -100px;
+    width: 30%
+}
+.containerC{
+    background-image: url(../images/CrystalCastle.jpg);
+}
+.containerD{
+    background-image: url(../images/SacredChamber.png);
+}
+.containerE{
+    background-image: url(../images/DarkCrystalTripleSun.jpg)
+}
+.containerF{
+    background-image: url(../images/DarkKrystal.png);
+}
+.boxA{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    height:30%;
+}
+img {
+    width:30%;
+    height:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.box-left{
+    margin-left: 5%;
+    width: 30%;
+    height:auto;
+    text-align: center;
+}
+.box-right{
+    margin-left: 70%;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+@media (max-width: 1199.98px){
+    .container{
+        height:auto;
+        padding-top: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .container img{
+        width: 100%;
+        height:auto;
+    }
+    html,body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        }
+    .containerA, .containerB, .containerC, .containerD, .containerE, .containerF{
+            width:100%;
+            height: 800px;
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        p{
+            font-size: 17.5px;
+        }
+        .containerB .box-left, .containerB .box-right{
+            margin-top: -90px;
+            width: 30%
+        }
+}
+@media (max-width: 991.98px){
+    .container{
+        height:auto;
+        padding-top: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .container img{
+        width: 100%;
+        height:auto;
+    }
+    html,body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        }
+    .containerA, .containerB, .containerC, .containerD, .containerE, .containerF{
+            width:100%;
+            height: 500px;
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        p{
+            font-size: 15px;
+        }
+        .containerB .box-left, .containerB .box-right{
+            margin-top: -90px;
+            width: 30%
+        }
+        
+}
+@media (max-width: 767.98px) {
+    .container img{
+        width: 100%;
+        height:auto;
+    }
+    html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    }
+    .containerA, .containerB, .containerC, .containerD, .containerE, .containerF{
+        width:100%;
+        height: 450px;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    p{
+        font-size: 13px;
+    }
+    .containerB .box-left{
+        margin-top: -80px;
+    }
+    .containerB .box-right{
+        margin-top: -70px;
+    }
+}
+@media (max-width: 575.98px) {
+    .container{
+        height:auto;
+        padding-top: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .container img{
+    width: 100%;
+    height:auto;
+    }
+    html,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    }
+    .containerA, .containerB, .containerC, .containerD, .containerE, .containerF{
+        width:100%;
+        height: 375px;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    p{
+        font-size: 10px;
+    }
+    .box-left{
+        margin-top: -20px;
+        width: 30%;
+        height:auto;
+    }
+    .box-right{
+        margin-top: -20px;
+        width: 30%;
+        height: auto;
+    }
+    .containerB .box-left, .containerB .box-right{
+        margin-top: -70px;
+    }
+    
+}
+
